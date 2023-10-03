@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&family=Outfit&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(213, 225, 239);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.container {
+  width: 20%;
+  background-color: white;
+  border-radius: 5%;
+  padding: 1%;
+}
+.image {
+  width: 100%;
+}
+img {
+  width: 100%;
+  border-radius: 5%;
+}
+.description {
+  padding: 5%;
+  text-align: center;
+}
+.bold {
+  font-size: 1.3em;
+  font-weight: 900;
+  font-family: "Outfit", sans-serif;
+}
+.light {
+  padding-top: 3%;
+  color: gray;
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+}
+@media screen and (max-width:375px) {
+  .container{
+    width: 75%;
+    padding: 5%;
+  }
+  .description{
+    padding: 3%;
+  }
+  
+}
